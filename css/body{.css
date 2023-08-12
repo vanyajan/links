@@ -1,0 +1,29 @@
+  body{
+      background-color: pink;
+      background-image: url(https://media.tenor.com/NaTq8WYGQXUAAAAM/elrond-network-egld.gif);
+     background-size: 200px;            
+     background-repeat: no-repeat;
+     background-position: 100% 100%;
+     background-attachment: fixed;
+  }
+  p{
+  	  font-size: 15mm;
+  	  color: skyblue;
+  	  background-image: url(https://miro.medium.com/max/1400/0*GMReHtD9mDbpl54Q);
+  	background-size: cover;  
+  }
+  .img1{
+  	width: 50%;
+  	margin: auto;
+  	display: block;
+  	border-radius: 25%;
+  	box-shadow: 20px -20px 50px black;
+  }
+  .img2{
+  	height: 50%;
+  }
+  .d1{
+  	width: 450px;
+  	height: 500px;
+  	background-image: linear-gradient(45deg,rgba(255, 255, 0, 0.5),rgba(0, 0, 255, 0.5)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5bL3Ky3Z5vUhLAX_avb_0rf_tlsfBP9rJEUI9YsVNM_4JlLHjndcrG9bguoo-2WedGyY&usqp=CAUclass=img3);
+  }

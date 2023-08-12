@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+	background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-073.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=ef48caa87980815f77343e682d6324ee);
+	background-size: cover;
+
+}
+p{
+	font-size: 50px;
+	color: #005fab;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px whitesmoke;
+}
+ul{
+	font-size: 24px;
+	color: #404040;
+	list-style-position: outside;
+}
+.circle li: :marker{
+	color: hotpink;
+	font-size: 1.5em;
+}
+@counter-style circled-digits{
+	system: cyclic;
+	symbols: 🐯 🐉 🐙 🦋 🐞;
+	suffix: " ";
+}
+ul,circled-digits{
+	list-style: circled-digits;
+}

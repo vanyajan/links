@@ -1,0 +1,50 @@
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStY0fggBE038mEIim-eXgiWaIMD1EnRU3UvsrMYOIyKvA_vSASxpzrHMtsbEh20CdQZWo&usqp=CAU);
+	background-size: cover;
+}
+p{
+font-family: cursive;
+font-size: 50px;
+text-align: center;
+color: yellow;
+text-shadow:10px -10px MidnightBlue;
+}
+table{
+	border: double 5px white;
+font-size: 24px;
+width: 50%;
+border border-collapse: separate;
+margin: auto;
+}
+th,td{
+	border:solid 2px white;
+	width: 25%;
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgray;
+}
+td:hover{
+	background-image: url(https://art.pixilart.com/e7c84dd7123fb88.gif);
+text-align: center;	
+font-weight: 700;
+text-transform: uppercase;
+color: pink;
+font-size: 1.5em;
+tr:nth-child(even);
+background-color: lightgray;
+tr:nth-child(odd);
+background-color: lightcyan;
+}
+.f1{
+	border-color: pink hotpink;
+	text-align: right;
+	vertical-align: bottom;
+
+}
+caption{
+	font-size: 48px;
+	color: f0f;
+	background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet);
+
+}

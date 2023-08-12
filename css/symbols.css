@@ -1,0 +1,10 @@
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYNlsOkxJRUIfw4SyPcjNExTnnZuSMq07A5Q&usqp=CAU) ;
+	background-size: cover;
+}
+P{
+	font-size: 96pt;
+}
+.p1{
+background: repeating-linear-gradient(45deg, silver 10% , grey 20%);
+}
